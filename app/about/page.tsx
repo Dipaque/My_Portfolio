@@ -19,7 +19,7 @@ const Page = () => {
         <section className='mt-12 grid grid-cols-3'>
           <div className='md:col-span-1  col-span-3'>
             <h5 className='font-bold text-2xl'>My Stack.</h5>
-            <Suspense fallback={<>Loading..</>}>
+            <Suspense fallback={<span className='loader'></span>}>
             <Stack />
             </Suspense>
           </div>

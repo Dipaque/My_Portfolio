@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio  
 
-## Getting Started
+Welcome to my personal portfolio repository! 🎨  
+This project showcases my work, skills, and projects using a modern and visually engaging design, leveraging **Next.js** for performance and **Three.js** for interactive 3D elements.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Modern Design**: Sleek, user-friendly interface.  
+- **Responsive Layout**: Optimized for desktops, tablets, and mobile devices.  
+- **3D Interactivity**: Engaging animations and graphics powered by **Three.js**.  
+- **Optimized Performance**: Built with **Next.js**, ensuring fast load times and great SEO.  
+- **Dynamic Content**: Easily customizable to include new projects and updates.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔧 Technologies Used  
 
-## Learn More
+- **Framework**: [Next.js](https://nextjs.org/)  
+- **3D Library**: [Three.js](https://threejs.org/)  
+- **CSS Framework**: [Tailwind CSS](https://tailwindcss.com/) (optional, mention if used)  
+- **State Management**: (e.g., React Context, Redux – mention if applicable)  
+- **Icons and Graphics**: [React Icons](https://react-icons.github.io/react-icons/)  
+- **Deployment**: [Vercel](https://vercel.com/) (or other hosting platform)  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Homepage
+![Homepage Screenshot](public/screenshots/homepage.png)
 
-## Deploy on Vercel
+### 3D Section
+![3D Section Screenshot](public/screenshots/3d-section.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

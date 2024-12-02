@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import PurpleHeart from '@/assets/purple-heart.svg';
+import Marquee from "react-fast-marquee";
 
 
 const Stack = () => {
@@ -19,20 +20,14 @@ const Stack = () => {
       </React.Fragment>
     ))}
   </div>
-  <div className="flex flex-row items-center gap-3 mt-6 animate-marquee2">
-    {[...Array(2)].map((_, i) => (
-      <React.Fragment key={i}>
-        <Image src={PurpleHeart} height={25} width={25} alt="purple-heart" />
-        <span className="border-2 border-black-1 p-2 rounded-xl text-white bg-black-1">Javascript Proficiency</span>
-        <Image src={PurpleHeart} height={25} width={25} alt="purple-heart" />
-        <span className="border-2 border-black-1 p-2 rounded-xl text-white bg-black-1">Tailwind CSS</span>
-        <Image src={PurpleHeart} height={25} width={25} alt="purple-heart" />
-        <span className="border-2 border-black-1 p-2 rounded-xl text-white bg-black-1">Bootstrap</span>
-        
-      </React.Fragment>
-    ))}
-    
-  </div>
+  <Marquee autoFill={true} loop={0} className='mt-5  -ms-2 h-full !p-3 !flex !flex-row !items-center !justify-center !gap-3' direction='right'>
+  <Image src={PurpleHeart} className='ms-3' height={25} width={25} alt="purple-heart" />
+        <span className="border-2 ms-3 border-black-1 p-2 rounded-xl text-white bg-black-1">Javascript Proficiency</span>
+        <Image src={PurpleHeart} height={25} width={25} className='ms-3' alt="purple-heart" />
+        <span className="border-2 ms-3 border-black-1 p-2 rounded-xl text-white bg-black-1">Tailwind CSS</span>
+        <Image src={PurpleHeart} height={25} width={25} className='ms-3' alt="purple-heart" />
+        <span className="border-2 ms-3 border-black-1 p-2 rounded-xl text-white bg-black-1">Bootstrap</span>
+  </Marquee>
 
               <div className='flex flex-row items-center justify-between gap-3 flex-nowrap mt-6 animate-marquee'>
               {[...Array(2)].map((_, i) => (
@@ -46,23 +41,21 @@ const Stack = () => {
                 </React.Fragment>
     ))}
               </div>
-              <div className='flex flex-row items-center justify-between gap-3 flex-nowrap mt-6 animate-marquee2'>
-                <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
-                <span className='border-2 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>MongoDB</span>
-                <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
-                <span className='border-2  border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>Firebase Firestore</span>
-                <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
-                <span className='border-2 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>PostgreSQL</span>
-                <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
-              </div>
-              <div className='flex flex-row items-center justify-between gap-3 flex-nowrap mt-6 animate-marquee'>
+              <Marquee autoFill={true} loop={0} className='mt-6  -ms-2 h-full !p-3 !flex !flex-row !items-center !justify-center !gap-3' direction='right'>
+                <Image src={PurpleHeart} className='ms-3' height={25} width={25} alt='purple-heart' />
+                <span className='border-2 ms-3 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>MongoDB</span>
+                <Image src={PurpleHeart} className='ms-3' height={25} width={25} alt='purple-heart' />
+                <span className='border-2 ms-3 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>Firebase Firestore</span>
+                <Image src={PurpleHeart} className='ms-3' height={25} width={25} alt='purple-heart' />
+                <span className='border-2 ms-3  border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>PostgreSQL</span>
+              </Marquee>
+              <div className='flex flex-row items-center justify-between gap-3 flex-nowrap mt-5 animate-marquee'>
               {[...Array(2)].map((_, i) => (
       <React.Fragment key={i}>
                 <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
                 <span className='border-2 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>Data Structures and Algorithms</span>
                 <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
                 <span className='border-2 border-black-1 p-2 rounded-xl text-white bg-black-1 text-nowrap'>Problem solving</span>
-                <Image src={PurpleHeart} height={25} width={25} alt='purple-heart' />
                 </React.Fragment>
     ))}
               </div>
