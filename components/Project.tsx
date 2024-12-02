@@ -2,7 +2,7 @@ import React from 'react'
 import Title from './Title'
 import Image from 'next/image'
 import Bg1 from "@/assets/ProjectBG-2.jpeg"
-import Bg2 from "@/assets/ProjectBG-1.jpeg"
+import Bg2 from "@/assets/projectBG-1.jpeg"
 import Bg3 from "@/assets/ProjectBG-3.jpeg"
 import Bg4 from "@/assets/ProjectBG-4.jpeg"
 import pro1 from "@/assets/project-2.png"
