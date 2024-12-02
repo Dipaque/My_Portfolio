@@ -27,7 +27,7 @@ const Page = () => {
           <h5 className='font-bold text-2xl'>My Special Place.</h5>
           <div className='bg-[#b8b8b8]  border-[#b8b8b8]  h-[385px] cursor-grab
             border-2 rounded-2xl flex items-center justify-center mt-5 text-[15px]  overflow-hidden'>
-              <Suspense fallback={<>Loading...</>}>
+              <Suspense fallback={<span className='loader'></span>}>
           <DottedGlobe />
               </Suspense>
           </div>
