@@ -56,7 +56,7 @@ const DottedGlobe = () => {
           enableZoom={false}
           target={[0, 0, 0]} // Ensure the controls target the globe's center
         />
-      <Environment preset="night" />
+      <Environment files={"/earth/dikhololo_night_1k.hdr"} background={false}  />
       <Model />
      
     </Canvas>
