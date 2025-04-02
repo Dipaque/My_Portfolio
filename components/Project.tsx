@@ -6,7 +6,7 @@ import Bg2 from "@/assets/projectBG-1.jpeg"
 import Bg3 from "@/assets/ProjectBG-3.jpeg"
 import Bg4 from "@/assets/ProjectBG-4.jpeg"
 import pro1 from "@/assets/project-2.png"
-import pro2 from "@/assets/project-4.png"
+import pro2 from "@/assets/project-5.png"
 import pro3 from "@/assets/ml linkedin post.png"
 import pro4 from "@/assets/project-3.png"
 
@@ -51,10 +51,10 @@ const Project = () => {
                 <Image src={pro2} className='rounded-3xl  ' height={500} width={500} alt='fleetapp' />
                 </div>
                 <span className='flex items-center justify-start mt-8 gap-2'>
-                <h3 className='font-bold md:text-2xl text-black-1 text-lg '>Podcastr </h3>
-                <div className='h-5 w-5 rounded-full border-purple-1 border-2 cursor-pointer hover:bg-purple-1' />
+                <h3 className='font-bold md:text-2xl text-black-1 text-lg '>Chitti </h3>
+                <a href='https://llma-chatbot.vercel.app/' className='h-5 w-5 rounded-full border-purple-1 border-2 cursor-pointer hover:bg-purple-1' />
                 </span>
-                <p className='md:text-lg text-base text-gray-600  mt-5 font-medium'>An AI Podcast platform which allow users to create podcast using TTS by feeding text to the model and content can be also generated using LLM's supporting with PostgreSQL to manage users.</p>
+                <p className='md:text-lg text-base text-gray-600  mt-5 font-medium'>Developed an AI-powered chatbot using the LLaMA 3.2 8B model in Next.js, integrated with Qdrant vector database for efficient knowledge retrieval. Implemented RAG to enhance responses with contextually relevant information and improving accuracy and relevance.</p>
             </div>
             <div className='lg:col-span-2 w-full lg:mt-12 mt-24 col-span-5'>
                 <div className='rounded-3xl flex items-center justify-center ' style={{backgroundImage:`url('${Bg1.src}')`, backgroundSize: "cover",
