@@ -16,7 +16,7 @@ const Footer = () => {
       <PageRoutes navs={navs} />
       <ul className='flex items-center gap-6'>
         <li>
-          <a download={"Deepak_Resume"} href={myResume.src}>
+          <a download={"Deepak_Resume"} href={"https://drive.google.com/file/d/17jZVkMfDcYuDVb4h3swALj1XuaKJ2biD/view?usp=sharing"}>
             <LuDownload size={25} className='text-gray-600' />
             </a>
         </li>
