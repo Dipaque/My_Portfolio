@@ -39,7 +39,7 @@ const Project = () => {
                 </div>
                 <span className='flex items-center justify-start mt-8 gap-2'>
                 <h3 className='font-bold md:text-2xl text-black-1 text-lg '>Music Recommendation System </h3>
-                <a href='https://bk-travelsapp.onrender.com/' className='h-5 w-5 rounded-full border-purple-1 border-2 cursor-pointer hover:bg-purple-1' />
+                <div className='h-5 w-5 rounded-full border-purple-1 border-2 cursor-pointer hover:bg-purple-1' />
                 </span>
             <p className='md:text-lg text-base text-gray-600  mt-5 font-medium'>A content-based music recommendation system that suggests similar songs using Spotify’s Top 100 Songs of 2023.
 Built with Python and KNN, it uses audio features like danceability and energy for personalized recommendations.
